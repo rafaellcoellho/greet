@@ -2,7 +2,7 @@ import argparse
 
 
 def main(argv=None):
-    parser = argparse.ArgumentParser(prog="hello")
+    parser = argparse.ArgumentParser(prog="greet")
     parser.add_argument("name")
     args = parser.parse_args(argv)
 
